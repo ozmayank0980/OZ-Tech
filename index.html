@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/hover.css">
+	<style type="text/css">
+.outer
+{
+min-height: 3000px;
+//background: linear-gradient(60deg,red,yellow);
+}
+.ttop
+{
+min-height: 30px;
+background: linear-gradient(45deg,red 25%,yellow);
+box-shadow: 0px 0px 3px 2px black inset;
+}
+.tttop
+{
+box-shadow: 0px 0px 3px 0px black inset;
+line-height: 30px;
+font-size: 12px;
+text-align: center;
+
+}
+.fnt
+{
+font-size: 15px;
+//border: 1px solid black;
+margin-left: 10px;
+}
+.fntt
+{
+font-size: 15px;
+//border: 1px solid black;
+margin-left: 25px;
+
+}
+.fnt:hover,.fntt:hover
+{
+color: red;
+transition: all ease 1s;
+}
+.fnttf:hover
+{
+color: #4867aa;
+transition: all ease 1s;
+}
+.fnttt:hover
+{
+color: #1c99e6;
+transition: all ease 1s;
+}
+.fntty:hover
+{
+color: red;
+transition: all ease 1s;
+}
+.fnttw:hover
+{
+color: #00e676;
+transition: all ease 1s;
+}
+.fnttl:hover
+{
+color: #0077b5;
+transition: all ease 1s;
+}
+.menu
+{
+min-height: 80px;
+//border: 1px solid black;
+
+}
+.slider
+{
+min-height: 500px;
+background: #ffffff;
+}
+.nav-link:hover,.dropdown-item:hover
+{
+background: linear-gradient(45deg,#4bc1a7,skyblue);
+}
+.services
+{
+min-height: 25px;
+
+}
+.ser1
+{
+	min-height: 200px;
+	border: 4px solid #4bc1a7;
+  background: white;
+}
+.product
+{
+min-height: 300px;
+}
+.cardbtn 
+{
+height: 40px;
+min-width: 140px;
+padding: 0px 20px;
+line-height: 35px;
+background: #4bc1a7;
+border: 2px solid black;
+text-align: center;
+font-weight: bold;
+font-size: 15px;
+color: #4bc1a7;
+}
+.card-title
+{
+color: #4bc1a7;
+}
+.about{
+  min-height: 600px;
+  background-size: cover;
+text-align: justify;
+background: url("images/alogin.jpg");
+}
+.aboutinn
+{
+  min-height: 590px;
+background: rgba(75, 193, 167, 0.4);
+padding-left: 40px;
+}
+.gallery
+{
+min-height: 400px;
+padding: 10px 25px;
+background: rgba(75, 193, 167, 0.5);
+}
+.gal2
+{
+min-height: 200px;
+//padding-left: 45px;
+}
+.gal1
+{
+min-height: 200px;
+margin: 15px;
+border: 1px solid black;
+padding-top: 10px;
+}
+.imggallery
+{
+transition: all ease 1s;
+}
+.imggallery:hover
+{
+transform: scale(1.3);
+transition: all ease 1s;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid outer bg-light ">
+<div class="row ttop ">
+<div class="col-sm-8 bg-light br-none ps-5 tttop">
+<i class="fa fa-phone fnt fa-spin"> </i> &nbsp;HelpLine No. : 9807369107 | 8601672286 ||       <i class="fa fa-envelope fnt"> </i>&nbsp; Mail To : oz.mayankvaishya@gmail.com
+</div>
+<div class="col-sm-4 bg-light  tttop">
+	Stay Connect With Me |
+	<i class="fab fa-facebook fntt fnttf"></i>
+	<i class="fab fa-twitter fntt fnttt"></i>
+	<i class="fab fa-youtube fntt fntty"></i>
+	<i class="fab fa-whatsapp fntt fnttw"></i>
+	<i class="fab fa-linkedin-in fntt fnttl"></i>
+</div>
+</div>
+<div class="row menu">
+<div class="col-sm-12 p-1">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-2 pe-4" href="#">OZ<b>-</b><b style="color:#4bc1a7">TECH</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#"><i class="fa fa-home"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#"><i class="fa fa-info-circle"></i> About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#"><i class="fab fa-servicestack"></i> Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#"><i class="fa fa-blog"></i> Blog</a>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           <i class="fa fa-image"></i> Gallery
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item fw-bold" href="#"><i class="fa fa-camera"></i> picture Gallery</a></li>
+            <li><a class="dropdown-item fw-bold" href="#"><i class="fa fa-video"></i> Video action</a></li>
+          </ul>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#box"><i class="fa fa-id-card"></i> Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#"><i class="fa fa-key"></i> Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#"><i class="fa fa-rss"></i> Feedback</a>
+        </li>
+      </ul>
+      <nav class="navbar navbar-light bg-light">
+  <form class="container-fluid">
+    <div class="input-group">
+     
+      <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+       <span class="input-group-text" id="basic-addon1" style="background: #4bc1a7;"><i class="fa fa-search"></i></span>
+    </div>
+  </form>
+</nav>
+    </div>
+  </div>
+</nav>
+</div>
+</div>
+<div class="row slider">
+<div class="col-sm-12 p-3">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/a.jpg" class="d-block w-100" alt="a.jpg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First 1</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/b.jpg" class="d-block w-100" alt="b.jpg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second 2</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/c.jpg" class="d-block w-100" alt="c.jpg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third 3</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+        <div class="carousel-item">
+      <img src="images/alogin.jpg" class="d-block w-100" alt="alogin.jpg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fourth 4</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<div class="row services">
+	<div class="h2 text-center">Our <b style="color:#4bc1a7; border-bottom:3px solid #4bc1a7;">Services <span class="fa fa-star fa-spin"></b></span></div>
+</div>
+<div class="container bg-light text-center">
+<div class="row p-2 ps-5">
+<div class="col-sm-3  ser1  text-center m-5 ms-auto py-3 "><h2 style="color:#4bc1a7;">We Love Our Costomer</h2>
+<p class="text-justify">OZ-TECH is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various field.</p>
+</div>
+<div class="col-sm-3  ser1 text-center m-5 ms-auto py-3"><h2 style="color:#4bc1a7;">Best Price</h2>
+<p class="text-justify">OZ-TECH is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various field.</p>
+</div>
+<div class="col-sm-3  ser1 text-center ms-auto m-5 py-3 "><h2 style="color:#4bc1a7;">Costomer Insights</h2>
+<p class="text-justify">OZ-TECH is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various field.</p>
+</div>
+</div>
+</div>
+<div class="row services">
+  <div class="h2 text-center p-2">Our <b style="color:#4bc1a7; border-bottom:3px solid #4bc1a7;">Products <span class="fab fa-product-hunt "></b></span></div>
+</div>
+<div class="container">
+<div class="row product bg-dark">
+<div class="col-md-2 p-2"><div class="card" >
+  <img src="images/c1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">HP Laptop</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn hvr-rectangle-in cardbtn">Add To Card</a>
+  </div>
+</div></div>
+<div class="col-md-2 p-2"><div class="card" >
+  <img src="images/c2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn hvr-rectangle-in cardbtn">Add To Card</a>
+  </div>
+</div></div>
+<div class="col-md-2 p-2"><div class="card" >
+  <img src="images/c3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn hvr-rectangle-in cardbtn">Add To Card</a>
+  </div>
+</div></div>
+<div class="col-md-2 p-2"><div class="card" >
+  <img src="images/c4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn hvr-rectangle-in cardbtn">Add To Card</a>
+  </div>
+</div></div>
+<div class="col-md-2 p-2"><div class="card" >
+  <img src="images/c5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn hvr-rectangle-in cardbtn">Add To Card</a>
+  </div>
+</div></div>
+<div class="col-md-2 p-2"><div class="card" >
+  <img src="images/c6.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn hvr-rectangle-in cardbtn">Add To Card</a>
+  </div>
+</div></div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="row services">
+  <div class="h2 text-center p-2"><b style="color:#4bc1a7; border-bottom:3px solid #4bc1a7;">About Us <span class="fa fa-info-circle fa-spin"></b></span></div>
+</div>
+<div class="col-sm-12 about">
+<div class="row">
+<div class="col-sm-10 m-1 ms-auto me-auto p-4 fw-bold aboutinn">
+OZ-TECH is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields. OZ-TECH is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields.echpile is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields.echpile is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields. OZ-TECH is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields.echpile is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields.echpile is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields. OZ-TECH is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields.echpile is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields.echpile is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields. OZ-TECH is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by cooperating in various fields. OZ-TECH is an organization working in both software de OZ-TECH is an organization working in both software deechpile is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.who are trying to achieve this objective by 
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row ">
+<div class="col-md-12 gallery">
+ <center><h2><b style="color:#ffffff; border-bottom:3px solid #ffffff;">Gallery &nbsp;<span class="fa fa-image"></b></span></h2></center>
+<div class="row gal2 ms-auto">
+<div class="col-md-3 gal1 mx-auto"><img class="img-thumbnail imggallery" src="images/c5.jpg"></div>
+<div class="col-md-3 gal1 mx-auto"><img class="img-thumbnail imggallery" src="images/c4.jpg"></div>
+<div class="col-md-3 gal1 mx-auto"><img class="img-thumbnail imggallery" src="images/c6.jpg"></div>
+</div>
+<div class="row gal2 ms-auto">
+<div class="col-md-3 gal1  mx-auto"><img class="img-thumbnail imggallery" src="images/c1.jpg"></div>
+<div class="col-md-3 gal1 mx-auto"><img class="img-thumbnail imggallery " src="images/c2.jpg"></div>
+<div class="col-md-3 gal1 mx-auto"><img class="img-thumbnail imggallery" src="images/c3.jpg"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid bg-light contact">
+  <div class="h2 text-center fw-bold p-2"><span style="color: #4bc1a7; border-bottom: 3px solid #4bc1a7; ">Contact Us <i class="fa fa-map"></i></span></div>
+<div class="row ms-auto">
+<div class="col-sm-10 mx-auto p-1 con1">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.2694379509926!2d80.96351071504456!3d26.89494278313537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957685c5ecb5f%3A0xd0301283124eeff4!2sOZ-TECH!5e0!3m2!1sen!2sin!4v1630313772583!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+       </div>
+<div class="row">
+<div class="col-sm-12">
+<center>
+<input type="button" class="btn hvr-float-shadow cardbtn m-4"  data-bs-toggle="modal" data-bs-target="#box" style="height: 60px; width:150px; color: white; line-height: 50px; border-radius: 40px;" value="Contact Us"></center>
+</div></div>
+</div>
+<!-- Start modal-->
+<div class="modal" id="box" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background:linear-gradient(45deg,#1ca3f3,#06fca6);">
+        <h5 class="modal-title" style="padding-left:35%;">CONTACT <b style="color:white;">FORM </b></h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-5">
+        <form method="get">
+       NAME<input type="text" placeholder="ENTER YOUR NAME.." class="form-control"/>
+       EMAIL<input type="email" placeholder="ENTER YOUR EMAIL.." class="form-control"/>
+       MBOLIE<input type="number" placeholder="ENTER YOUR NAME.." class="form-control"/>
+       Message
+       <textarea placeholder="ENTER YOUR MESSAGE..." class="form-control"></textarea><br/>
+       <input type="submit" style="width:100%;" value="SAVE" class=" btn btn-warning"/></form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Modal-->
+
+
+<div class="container bfooter bg-dark text-light">
+<div class="row">
+<div class="col-sm-2 bfoot mx-auto m-4">
+<span class="fw-bold fs-5">Pages</span>
+<li>About Us</li>
+<li>Terms & Condition</li>
+<li>FAQ</li>
+<li>Contact Us</li>
+<li>Feedback</li>
+<hr>
+<span class="fw-bold fs-5">User Section</span>
+<li>Login <i class="fa fa-key"></i></li>
+<li>Register <i class="fa fa-key"></i></li>
+</div>
+<div class="col-sm-2 m-4 bfoot  mx-auto">
+  <span class="fw-bold fs-5">Menu</span>
+<li>Home</li>
+<li>About Us</li>
+<li>Services</li>
+<li>Blog</li><hr>
+<span class="fw-bold fs-5">Gallery</span>
+<li>Picture Gallery</li>
+<li>Video Gallery</li>
+</div>
+<div class="col-sm-2 m-4 mx-auto">
+<span class="fw-bold fs-5">Where To Find Us</span><br/>
+<span class="fw-bold fs-6">OZ-TECH ltd.</span><br>
+13/25 New house<br>Shringar Beauty parlour<br> Main Road<br>Suchi Salon Rbl.<br>229128<hr>
+<a style="text-decoration: none; color:#4bc1a7 ;" href="#">Go To Contact Page</a>
+</div>
+<div class="col-sm-3 m-4 mx-auto">
+<span class="fw-bold fs-5">GET THE NEWS</span><br/>
+OZ-TECH is founded by some young engineers who have mastered the IT sector, whose objective is to achieve the highest position in the IT sector across the country.
+ <nav class="navbar navbar-dark bg-dark">
+  <form class="container-fluid">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="" aria-label="Search" aria-describedby="basic-addon1">
+       <span class="input-group-text" id="basic-addon1" style="border:1px solid #4bc1a7;"><i>Subscribe</i></span>
+    </div>
+  </form>
+</nav><hr>
+<span class="fw-bold fs-6">STAY IN TOUCH</span><br/>
+<span><i class="fab fa-facebook fnttf"></i> &nbsp; <i class="fab fa-twitter fnttt"></i> &nbsp; <i class="fab fa-instagram  fntty"></i> &nbsp; <i class="fab fa-google fnttw"></i> &nbsp; <i class="fab fa-linkedin-in fnttl"></i></i></span>
+</div>
+</div>
+</div>
+<div class="container-fluid ufooter bg-light">
+<div class="row">
+<div class="col-sm-3"></div>
+<div class="col-sm-6 text-center fw-bold ">Copyright &copy; 2021 OZ-TECH | All Rights Reserved </div>
+<div class="col-sm-3"></div>
+</div>
+</div>
+</div>
+</div>
+<style type="text/css">
+.ufooter{
+  line-height: 50px;
+min-height: 50px;
+background: linear-gradient(45deg,rgba(0,0,0,.5));
+color: #4bc1a7;
+}
+.bfoot li
+{
+list-style: none;
+}
+.bfooter
+{
+min-height: 300px;
+}
+.contact
+{
+min-height: 500px;
+
+}
+.con1
+{
+
+min-height: 500px;
+background: #4bc1a7;
+border: 5px solid black;
+}
+</style>
+</body>
+</html>
